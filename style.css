@@ -1,0 +1,27 @@
+.animate{
+width :300px;
+height: 300px;
+position: absolute;
+top: 50%;
+left: 50%;
+background: grey;
+margin: -150px;
+animation-name: move;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+text-align: center;
+font-size: 40px;
+color:#34468;
+}
+@keyframes move{
+	from{
+		background-color: grey;
+		color: red;
+		border-radius: 0 0 0 0;
+	}
+	to {
+		background-color: red;
+		color: grey;
+		border-radius: 50% 50% 50% 50%;
+	}
+}
